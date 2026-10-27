@@ -1,5 +1,4 @@
 import os
-os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from sentence_transformers import SentenceTransformer
